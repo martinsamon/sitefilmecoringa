@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coringa 2</title>
+    <link rel="stylesheet" href="./Styles.css" />
+</head>
+<body>
+    <header>
+        <img id="logo" src="./OIP.jpg" />
+        <nav>
+            <ul>
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./Contatos.html">
+                    <li>Contatos</li>
+                </a>
+                <a href="./Fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="./Comentários.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="banner-3"></div>
+
+    <section>
+        <h2>Contato</h2>
+        <form action="https://formsubmit.co/amonmartins60@gmail.com" method="post">
+            <label>Nome</label>
+            <input type="text" name="Name" placeholder="Nome Sobrenome" required>
+            <label>Contato</label>
+            <input type="number" name="Contato" placeholder="(47)98888-8888" required>
+            <label>Email</label>
+            <input type="email" name="Email" placeholder="Ex:@gmail.com" required>
+            <label>Mensagem</label>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/Obrigado.html">
+        </form>
+    </section>
+
+    <footer>
+        <img style="object-fit: contain;" id="logo" src="./OIP.jpg"/>
+        <span>Todos os direitos reservados ©</span>
+        <span>Desenvolvido por: Amon Martins</span>
+
+        <nav class="footer-navigation">
+            <ul class="footer-list">
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./Contatos.html">
+                    <li>Contatos</li>
+                </a>
+                <a href="./Fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="./Comentários.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
